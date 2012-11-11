@@ -1,0 +1,3 @@
+[submodule "public/ostio"]
+	path = public/ostio
+	url = https://github.com/charlesjshort/ostio.git

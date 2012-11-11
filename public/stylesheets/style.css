@@ -1,0 +1,31 @@
+#wrap {
+   width:800px;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:300px;
+}
+#small_left_col {
+   float: left;
+   width: 234;
+
+}
+#right_col {
+   float:right;
+   width:300px;
+}
+#large_right_col {
+   float: right;
+   width: 600px;
+}
+#navlist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+#selected
+{
+font: bold
+}
