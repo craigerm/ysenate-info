@@ -10,3 +10,7 @@ exports.colors = function(req, res){
 exports.buttons = function(req, res) {
   res.render('buttons', {title: 'YSenate'});
 };
+
+exports.binpub = function(req, res) {
+  res.render('binpub', {title: 'BinPub'});
+};

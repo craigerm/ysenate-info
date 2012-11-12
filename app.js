@@ -34,6 +34,8 @@ app.get('/colors', colors.colors);
 app.get('/buttons', colors.buttons);
 app.get('/people', people.people);
 app.get('/trees', trees.trees);
+app.get('/legal', people.legal);
+app.get('/binpub', colors.binpub);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));

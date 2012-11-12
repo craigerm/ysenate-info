@@ -1,10 +1,10 @@
 #wrap {
    width:800px;
-   margin:0 auto;
 }
 #left_col {
    float:left;
    width:300px;
+   margin: 10 auto;
 }
 #small_left_col {
    float: left;
@@ -17,7 +17,7 @@
 }
 #large_right_col {
    float: right;
-   width: 600px;
+   width: 500px;
 }
 #navlist li
 {
@@ -28,4 +28,9 @@ padding-right: 20px;
 #selected
 {
 font: bold
+}
+footer {
+   float: left;
+   width:40%;
+   height:60px;   /* Height of the footer */
 }
