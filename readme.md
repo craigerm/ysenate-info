@@ -27,6 +27,7 @@ Your Name Here! If you don't have the time or stomach to contribute code, help u
 
  <a href="http://paulmillr.com">Paul Miller</a> for open sourcing <a href="http://ost.io">Ost.io</a>, a basis for the YSenate front-end; as well as all the goodies its built with like <a href = "http://brunch.io">Brunch</a>
 
- <a href= "http://molily.de/">Mathias Sch&#228efer</a>,  <a href= "http://9elements.com">9elements</a>, and <a href="http://moviepilot.com">MoviePilot.com</a> for releasing <a href= "https://github.com/chaplinjs/chaplin">Chaplin<a href="https://github.com/mcavage">Mark Cavage</a> for open sourcing <a href="http://mcavage.github.com/node-restify/">Restify</a>.
+ <a href= "http://molily.de/">Mathias Schaefer</a>,  <a href= "http://9elements.com">9elements</a>, and <a href="http://moviepilot.com">MoviePilot.com</a> for releasing <a href= "https://github.com/chaplinjs/chaplin">Chaplin
+ <a href="https://github.com/mcavage">Mark Cavage</a> for open sourcing <a href="http://mcavage.github.com/node-restify/">Restify</a>.
 
 <a href="http://www.vectorstock.com/portfolio/glopphy">Glopphy</a> for the liberal license on vector graphix.	
