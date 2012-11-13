@@ -1,26 +1,35 @@
 extends layout
 
 block content
-    section#left_col
-      a(href='/people')
-        img(src='images/ysenateChoice6.png')
-    section#right_col
-          section.css-table
-            section.four-column
-              section.cell
-                p The Generation Y Political Organization.
-              section.cell
-                p Vote any time, at any place, for any person, for any idea. Change your choice at will.
-              section.cell
-                p Discover your own dynamic neighborhood political party. Meet new people.
-              section.cell
-                p Uncover a new generation of leaders, be a leader.
-              section.cell
-                p Collaborate on policy opinions and craft open source legislation with Git!
-              section.cell
-                p Say this how you want: 'whysenate',  'ysenate', 'forksenate', 'forksinit' : it's .org inized to lead back to the root idea.
-              section.cell
-                p 
-                  img(src='/images/forkinroad.jpg')
- 
-    
+  div(class='page-header')
+    h1 The Generation Y Political Organization.
+  .span4
+    a(href='/people')
+      img(src='images/ysenateChoice6.png', class="choice")
+
+  .span7
+    section(class='lead')
+      p 
+        strong Vote 
+        | any time, at any place, for any person, for any idea. 
+        strong Change 
+        | your choice at will.
+
+      p Discover your own dynamic 
+        strong neighborhood 
+        | political party. Meet new people.
+
+      p Uncover a new generation of leaders, be a leader.
+
+      p 
+        strong Collaborate 
+        | on policy opinions and craft open source legislation with Git!
+
+      p Say this how you want: 'whysenate', 'ysenate', 'forksenate', 'forksinit' : it's 
+        strong
+          em org. inized 
+        | to lead back to the 
+        strong root idea.
+
+
+
