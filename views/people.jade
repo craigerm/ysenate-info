@@ -1,51 +1,54 @@
 extends layout
 
 block content
-    section#small_left_col
-      p
-        a(href="/")
-          img(src='images/ysenateChoice155100.png')
-      p
-        a(href="/colors")
-          img(src='/images/primary_color_heart.jpg')
-      p
-        a(href="/trees")
-          img(src='/images/trees.jpg')
-    section#large_right_col
-          section.css-table
-            section.four-column
-              h2 People we share a vision with... 
-                h3        Not Official Partners ... Yet!
+  div(class='page-header')
+    h1 People we share a vision with...
+
+  .span4
+    p
+      a(href="/")
+        img(src='images/ysenateChoice155100.png')
+    p
+      a(href="/colors")
+        img(src='/images/primary_color_heart.jpg')
+    p
+      a(href="/trees")
+        img(src='/images/trees.jpg')
+ 
+  .span7
+    h3 No Official Partners ... Yet!
+    p.lead <a href="http://www.americanselect.org/">AmericansElect</a>, YSenate wants to be the technological platform for your goal in 2016.
+    p <iframe width="640" height="360" src="http://www.youtube.com/embed/CuYKHnAVJ-Y?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+    p.lead
+      div(class='alert alert-error')
+        strong CAVEAT: 
+        | AmericansElect have the math wrong. Third parties should influence the primaries, not the final choice. See <a href='/academic.html'>academic paper HERE.</a>				
+    p.lead <a href="https://plus.google.com/+SergeyBrin/posts= Sergey Brin">Sergey Brin</a>: ..."govern as independents in name and in spirit.  It is probably the biggest contribution you can make to the country."
               section.cell
-                p <a href="http://www.americanselect.org/">AmericansElect</a>, YSenate wants to be the technological platform for your goal in 2016.
-                p <iframe width="640" height="360" src="http://www.youtube.com/embed/CuYKHnAVJ-Y?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
-                p CAVEAT: AmericansElect have the math wrong. Third parties should influence the primaries, not the final choice. See <a href='/academic.html'>academic paper HERE.</a>				
-              section.cell
-                p <a href="https://plus.google.com/+SergeyBrin/posts= Sergey Brin">Sergey Brin</a>: ..."govern as independents in name and in spirit.  It is probably the biggest contribution you can make to the country."
-              section.cell
-                p <a href="http://github.com/nysenate">NY Senate Open Source Projects</a> leading the way in GitLaw.
+                p.lead <a href="http://github.com/nysenate">NY Senate Open Source Projects</a> leading the way in GitLaw.
               h2 Development Leaders
               section.cell
-                p Your Name Here! YSenate loves to push and pull with hardcore forkers!			  
+                p.lead Your Name Here! YSenate loves to push and pull with hardcore forkers!			  
               section.cell
-                p Chuck Short, the architect, is a lawyer/computer engineer fascinated with information theory. He has worked for a couple of law firms, taught statistics courses, and enjoys hacking. He earned a J.D./M.S. Math with distinction from Rutgers University, and BSEE from USC. Chuck has written a slighlty <a href='/academic.html'>academic paper HERE.</a>
+                p.lead Chuck Short, the architect, is a lawyer/computer engineer fascinated with information theory. He has worked for a couple of law firms, taught statistics courses, and enjoys hacking. He earned a J.D./M.S. Math with distinction from Rutgers University, and BSEE from USC. Chuck has written a slighlty <a href='/academic.html'>academic paper HERE.</a>
               section.cell
-                p Tyler Guidry, a project manager, is partner at <a href = "http://www.modifly.com"> Modifly.com</a>, founder at <a href = "http://www.dashstack.com"> DashStack.com</a>, and rally car driver. He has worked as a CTO in the investments industry and directed technology for over 12 years. He earned a B.S. in Computer Science from the Univeristy of Texas at San Antonio.				
+                p.lead Tyler Guidry, a project manager, is partner at <a href = "http://www.modifly.com"> Modifly.com</a>, founder at <a href = "http://www.dashstack.com"> DashStack.com</a>, and rally car driver. He has worked as a CTO in the investments industry and directed technology for over 12 years. He earned a B.S. in Computer Science from the Univeristy of Texas at San Antonio.				
               h2 Project Advisors
               section.cell
-                p Joshua Cooper, a YSenate research consultant over the past few years, is a Palmetto Assistant Professor of Mathematics at the University of South Carolina. He also consults for private industry and has worked as a data scientist with ETH Z&#252rich. He earned a Ph.D. from the University of California, San Diego, and is a graduate of MIT.
+                p.lead Joshua Cooper, a YSenate research consultant over the past few years, is a Palmetto Assistant Professor of Mathematics at the University of South Carolina. He also consults for private industry and has worked as a data scientist with ETH Z&#252rich. He earned a Ph.D. from the University of California, San Diego, and is a graduate of MIT.
               section.cell
-                p Your Name Here! If you don't have the time or stomach to contribute code, help us with direction and feedback on design.
+                p.lead Your Name Here! If you don't have the time or stomach to contribute code, help us with direction and feedback on design.
               section.cell
-                p ...
+                p.lead
+                  ...
               h2 Credits Due
               section.cell
-                p <a href="http://paulmillr.com">Paul Miller</a> for open sourcing <a href="http://ost.io">Ost.io</a>, a basis for the YSenate front-end; as well as all the goodies its built with like <a href = "http://brunch.io">Brunch</a>
+                p.lead <a href="http://paulmillr.com">Paul Miller</a> for open sourcing <a href="http://ost.io">Ost.io</a>, a basis for the YSenate front-end; as well as all the goodies its built with like <a href = "http://brunch.io">Brunch</a>
               section.cell
-                p <a href= "http://molily.de/">Mathias Sch&#228efer</a>,  <a href= "http://9elements.com">9elements</a>, and <a href="http://moviepilot.com">MoviePilot.com</a> for releasing <a href= "https://github.com/chaplinjs/chaplin">Chaplin</a>
+                p.lead <a href= "http://molily.de/">Mathias Sch&#228efer</a>,  <a href= "http://9elements.com">9elements</a>, and <a href="http://moviepilot.com">MoviePilot.com</a> for releasing <a href= "https://github.com/chaplinjs/chaplin">Chaplin</a>
               section.cell
-                p <a href="https://github.com/mcavage">Mark Cavage</a> for open sourcing <a href="http://mcavage.github.com/node-restify/">Restify</a>.
+                p.lead <a href="https://github.com/mcavage">Mark Cavage</a> for open sourcing <a href="http://mcavage.github.com/node-restify/">Restify</a>.
               section.cell
-                p <a href="http://www.vectorstock.com/portfolio/glopphy">Glopphy</a> for the liberal license on vector graphix.
+                p.lead <a href="http://www.vectorstock.com/portfolio/glopphy">Glopphy</a> for the liberal license on vector graphix.
               section.cell
-                p <a href="http://ashkenas.com/">Jeremy Ashkenas</a> for <a href="http://backbonejs.org/">BackboneJS</a> and <a href="http://coffeescript.org/">Coffeescript</a>			  
+                p.lead <a href="http://ashkenas.com/">Jeremy Ashkenas</a> for <a href="http://backbonejs.org/">BackboneJS</a> and <a href="http://coffeescript.org/">Coffeescript</a>			  
